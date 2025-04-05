@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+/* Page 2 start */
+.page1{
+    background:url("IndexBackGround.jpg");
+    height: 744px;
+    width: 1530px;
+    position: fixed;
+}
+.page1-header{
+    display: grid;
+    grid-template-columns:400px auto auto;
+}
+.page1-nav{
+  height: 200px;
+}
+.page1-img{
+  height: 200px;
+}
+.page1-nav li{
+    font-size: 40px;
+    font-family: courier;
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding-top: 90px;
+    color: white;
+}
+.btn {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-top: 90px;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.Heading1 h1{
+  color: white;
+  font-family: Courier;
+  font-size: 60px;
+  margin-top: 60px;
+}
+.Heading1 p{
+  font-family: Arial;
+  font-size: 30px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
